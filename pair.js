@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `ROBIN MAX YT BOT PAIR\n\nWeb pair msg`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> ROBIN MAX`
+            const sid = `GIMAA-MD BOT PAIR\n\n ${string_session} Web pair msg`;
+            const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> GIMAA-MD`
             await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/ROBIN-MAX-YT/BOT-HELPER/refs/heads/main/Flux_Dev_a_surreal_and_vibrant_cinematic_photo_of_Create_an_ac_2.jpeg",
+                url: "https://i.pinimg.com/736x/f5/f7/4a/f5f74ae26480cd5b2635ed6a824f27bd.jpg",
               },
               caption: sid,
             });
@@ -129,3 +129,4 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
