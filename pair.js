@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `GIMAA-MD BOT PAIR\n\n ${string_session} Web pair msg`;
+            const sid = `GIMAA-MD BOT PAIR\n\n ${string_session}\n\n Web pair msg`;
             const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> GIMAA-MD`
             await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://i.pinimg.com/736x/f5/f7/4a/f5f74ae26480cd5b2635ed6a824f27bd.jpg",
+                url: "https://i.ibb.co/x8hP1DR4/shaban-md.jpg",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
